@@ -1,4 +1,4 @@
-body{
+html, body{
     margin: 0;
     background-image: url("images/bg3.jpg");
     background-repeat: no-repeat;
@@ -31,7 +31,6 @@ div.container {
     height: 48px;
     overflow: hidden;
     background-color: black;
-    position: fixed; 
     top: 0;
 }
 .navbar a {
@@ -82,20 +81,22 @@ body h1{
 }
 
 .row {
-    display:flex;
-  }
+    display: flex;
+    align-items: center;
+    
+}
+
 .columnLeft {
-    flex: 30%;
+    flex: 25%;
     padding: 5%;
 }
 
 .columnCenter {
     flex: 50%;
-    padding-top: 5%;
 }
 
 .columnRight {
-    flex: 30%;
+    flex: 25%;
     padding: 5%;
 }
 

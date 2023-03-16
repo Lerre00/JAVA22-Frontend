@@ -1,8 +1,10 @@
 html, body{
     margin: 0;
     background-image: url("images/bg3.jpg");
-    background-repeat: no-repeat;
-    background-size: 2560px 1440px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 h1{
     font-family: 'Montserrat', sans-serif;
@@ -81,9 +83,8 @@ body h1{
 }
 
 .row {
+    text-align: center;
     display: flex;
-    align-items: center;
-    
 }
 
 .columnLeft {
@@ -93,11 +94,15 @@ body h1{
 
 .columnCenter {
     flex: 50%;
+    padding-top: 5%;
 }
 
 .columnRight {
     flex: 25%;
     padding: 5%;
+}
+
+.column{
 }
 
 img.rounded{

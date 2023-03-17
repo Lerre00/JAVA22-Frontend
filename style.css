@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     background-image: url("images/bg3.jpg");
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -31,7 +32,6 @@ div.container {
 .navbar{
     width: 100%;
     height: 48px;
-    overflow: hidden;
     background-color: black;
     top: 0;
 }
@@ -100,9 +100,6 @@ body h1{
 .columnRight {
     flex: 25%;
     padding: 5%;
-}
-
-.column{
 }
 
 img.rounded{
